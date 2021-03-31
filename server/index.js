@@ -25,6 +25,10 @@ app.prepare().then(() => {
       portfolio(id: ID): Portfolio
       portfolios: [Portfolio]
     }
+
+    type Mutation {
+      createPortfolio(input: PortfolioInput): Portfolio
+    }
   `)
 
   //root provides a resolver for each API endpoint
