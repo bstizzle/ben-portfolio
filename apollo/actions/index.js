@@ -7,9 +7,7 @@ import {
 } from '@/apollo/queries';
 
 export const useGetPortfolios = () => useQuery(GET_PORTFOLIOS);
-
 export const useUpdatePortfolio = () => useMutation(UPDATE_PORTFOLIO);
-
 export const useDeletePortfolio = () => useMutation(DELETE_PORTFOLIO, {
   update(cache, {data: {deletePortfolio}}) {
     const {portfolios} = cache.readQuery({query: GET_PORTFOLIOS})
@@ -20,7 +18,6 @@ export const useDeletePortfolio = () => useMutation(DELETE_PORTFOLIO, {
     })
   }
 });
-
 export const useCreatePortfolio = () => useMutation(CREATE_PORTFOLIO, {
   update(cache, {data: {createPortfolio}}) {
     const {portfolios} = cache.readQuery({query: GET_PORTFOLIOS})
