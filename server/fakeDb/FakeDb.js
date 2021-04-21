@@ -1,4 +1,3 @@
-
 const { portfolios } = require('./data');
 const Portfolio = require('../database/models/portfolio');
 
