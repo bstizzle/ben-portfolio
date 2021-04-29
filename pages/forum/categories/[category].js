@@ -23,19 +23,19 @@ const Topics = () => {
             <tr>
               <th>Some Topic Info</th>
               <td className="category">General Discussion</td>
-              <td>Filip Jerga</td>
+              <td>Ben Stein</td>
               <td>2</td>
             </tr>
             <tr>
               <th>Some Topic Info</th>
               <td className="category">General Discussion</td>
-              <td>Filip Jerga</td>
+              <td>Ben Stein</td>
               <td>2</td>
             </tr>
             <tr>
               <th>Some Topic Info</th>
               <td className="category">General Discussion</td>
-              <td>Filip Jerga</td>
+              <td>Ben Stein</td>
               <td>2</td>
             </tr>
           </tbody>
